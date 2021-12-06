@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to top right, #59b9e1, #bf40f0);
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100vh;
+}
+
+.middle-container {
+    grid-column-start: 2;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #303434;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    box-sizing: border-box;
+    padding: 35px;
+    /* padding-left: 20px; */
+    width: 400px;
+    background-color: #FFFF;
+    margin-top: 5px;
+    border-radius: 5px;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+}
+
+.border-n {
+    border-style: none;
+}
+
+.name-b {
+    border-bottom:rgb(212, 211, 211) 2px solid;
+    width: 95%;
+}
+
+.line-h {
+    line-height: 2rem;
+}
+
+.label-f {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    color: #5d1a77;
+}
+
+.select-f {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: rgb(212, 211, 211);
+    opacity: 1; /* Firefox */
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1rem;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgb(212, 211, 211);
+   font-family: 'Readex Pro', sans-serif;
+   font-size: 1rem;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(212, 211, 211);
+   font-family: 'Readex Pro', sans-serif;
+   font-size: 1rem;
+  }
+
+  .b-space {
+    margin-top: 5px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(to right, #bf40f0, #59b9e1);
+    color: whitesmoke;
+  }
+
+  #services {
+    width: 94%;
+    background:url('https://cdn0.iconfinder.com/data/icons/fast-forward/64/up-down-512.png') no-repeat;
+    background-size: 1.5rem;
+    background-position:101% center;
+  }
+
+  #budget {
+    width: 94%;
+    background:url('https://cdn0.iconfinder.com/data/icons/fast-forward/64/up-down-512.png') no-repeat;
+    background-size: 1.5rem;
+    background-position:101% center;
+  }
